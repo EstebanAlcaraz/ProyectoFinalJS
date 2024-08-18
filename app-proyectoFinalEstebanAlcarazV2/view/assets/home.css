@@ -1,0 +1,46 @@
+.header-container {
+  width: 300px; /* Ancho del menú lateral ligeramente más amplio */
+  background-color: #00695c; /* Color de fondo más oscuro y vibrante */
+  color: #ffffff; /* Color de texto blanco */
+  padding: 40px; /* Aumentar el espaciado interno */
+  position: fixed; /* Fijo en la pantalla */
+  top: 0; /* Parte superior */
+  height: 100vh; /* Altura completa */
+  box-shadow: 4px 0 20px rgba(0, 0, 0, 0.4); /* Sombra más pronunciada para el menú lateral */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave para el color de fondo y transformación */
+}
+
+.header-container:hover {
+  background-color: #004d40; /* Cambiar el color de fondo al pasar el ratón */
+  transform: scale(1.02); /* Aumentar ligeramente el tamaño al pasar el ratón */
+}
+
+.header-container h1 {
+  font-size: 28px; /* Tamaño de fuente más grande para el título */
+  margin-bottom: 25px; /* Espaciado inferior para el título */
+  font-weight: bold; /* Hacer que el título sea más prominente */
+  text-align: center; /* Centrar el título */
+}
+
+.header-container nav {
+  margin-top: 30px; /* Espaciado superior para la navegación */
+}
+
+.header-container nav a {
+  display: block; /* Cada enlace ocupa toda la línea */
+  color: #ffffff; /* Color de texto blanco para los enlaces */
+  text-decoration: none; /* Eliminar subrayado */
+  padding: 12px 15px; /* Espaciado interno en los enlaces */
+  border-radius: 8px; /* Bordes redondeados en los enlaces */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave para el fondo de los enlaces */
+}
+
+.header-container nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3); /* Fondo blanco semitransparente al pasar el ratón */
+  transform: translateX(5px); /* Desplazar ligeramente el enlace al pasar el ratón */
+}
+
+.header-container nav a.active {
+  background-color: #004d40; /* Color de fondo para el enlace activo */
+  font-weight: bold; /* Hacer que el enlace activo sea más prominente */
+}

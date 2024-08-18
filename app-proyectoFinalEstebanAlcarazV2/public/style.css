@@ -1,0 +1,64 @@
+body {
+  font-family: 'Verdana', sans-serif; /* Cambiar a Verdana para un aspecto más moderno */
+  background-color: #e9ecef; /* Color de fondo más suave y neutro */
+  color: #444; /* Color de texto más oscuro para mejor contraste */
+  line-height: 1.8; /* Mejora la legibilidad */
+  margin: 0; /* Eliminar márgenes por defecto */
+  padding: 0; /* Eliminar relleno por defecto */
+}
+
+.form-container {
+  max-width: 400px; /* Ancho máximo del formulario reducido */
+  margin: 60px auto; /* Centrar el formulario y añadir margen superior e inferior */
+  padding: 35px; /* Espaciado interno ajustado */
+  background-color: #ffffff; /* Fondo blanco para el formulario */
+  border-radius: 15px; /* Bordes más redondeados */
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+  border: 2px solid #28a745; /* Cambiar a un borde verde sólido */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transiciones suaves para sombra y transformación */
+}
+
+.form-container:hover {
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25); /* Aumentar la sombra al pasar el ratón */
+  transform: translateY(-2px); /* Elevar ligeramente el contenedor al pasar el ratón */
+}
+
+.input-group {
+  margin-bottom: 25px; /* Aumentar el espaciado entre campos de entrada */
+}
+
+.input-group label {
+  display: block; /* Asegurar que las etiquetas ocupen toda la línea */
+  margin-bottom: 8px; /* Espaciado entre la etiqueta y el campo de entrada */
+  font-weight: bold; /* Hacer que las etiquetas sean más prominentes */
+  color: #333; /* Color de texto de las etiquetas más oscuro */
+}
+
+.input-group input {
+  width: 100%; /* Campos de entrada ocupan todo el ancho disponible */
+  padding: 14px; /* Espaciado interno en los campos de entrada */
+  border: 1px solid #ced4da; /* Borde gris claro */
+  border-radius: 8px; /* Bordes redondeados en los campos de entrada */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Transición suave para el borde y sombra */
+}
+
+.input-group input:focus {
+  border-color: #28a745; /* Cambiar el color del borde al enfocar */
+  box-shadow: 0 0 5px rgba(40, 167, 69, 0.5); /* Añadir sombra al enfocar */
+  outline: none; /* Eliminar el contorno por defecto */
+}
+
+.links {
+  text-align: center; /* Centrar enlaces */
+  margin-top: 20px; /* Aumentar el espaciado superior */
+}
+
+.links a {
+  color: #28a745; /* Color de los enlaces */
+  text-decoration: none; /* Eliminar subrayado */
+  transition: color 0.3s ease; /* Transición suave para el color */
+}
+
+.links a:hover {
+  color: #218838; /* Cambiar el color de los enlaces al pasar el ratón */
+}
